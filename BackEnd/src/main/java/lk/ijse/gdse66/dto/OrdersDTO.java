@@ -6,10 +6,6 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-/**
- * @author : Kavithma Thushal
- * @project : Spring-POS
- **/
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
