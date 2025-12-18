@@ -13,10 +13,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 
-/**
- * @author : Kavithma Thushal
- * @project : Spring-POS
- **/
 @Service
 @Transactional
 public class ItemServiceImpl implements ItemService {
