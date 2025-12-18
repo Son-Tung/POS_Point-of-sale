@@ -1,8 +1,3 @@
-/**
- * @author : Kavithma Thushal
- * @project : Spring-POS
- **/
-
 function checkValidity(object) {
     let errorCount = 0;
     for (let validation of object) {
