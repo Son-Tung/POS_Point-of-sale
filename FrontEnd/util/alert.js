@@ -1,8 +1,3 @@
-/**
- * @author : Kavithma Thushal
- * @project : Spring-POS
- **/
-
 function successAlert(value, value2) {
     Swal.fire({
         position: 'bottom-end',
