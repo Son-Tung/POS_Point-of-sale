@@ -1,0 +1,685 @@
+/* ============================================
+   RESPONSIVE DESIGN - Mobile First Approach
+   ============================================ */
+
+/* Extra Small Devices (Mobile Phones: < 576px) */
+@media (max-width: 575.98px) {
+    /* Navigation */
+    .navbar-brand {
+        font-size: 0.95rem;
+        letter-spacing: 0;
+    }
+
+    .navbar-nav {
+        margin-top: 1rem;
+        gap: 0.5rem;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 0.45rem 0.65rem !important;
+        font-size: 0.85rem;
+    }
+
+    /* Typography */
+    main h2 {
+        width: 100%;
+        font-size: 1.3rem;
+        padding: 0.6rem 0.8rem;
+        margin-top: 0.8rem !important;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1rem !important;
+    }
+
+    /* Dashboard Cards */
+    .dash-tile-icon {
+        font-size: 2.5em !important;
+        margin-right: 1rem !important;
+    }
+
+    .dash-tile-text h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .card-body {
+        padding: 1rem !important;
+        flex-direction: column;
+    }
+
+    /* Containers & Sections */
+    .container,
+    .col-11,
+    .col-10,
+    .col-md-5,
+    .col-lg-4,
+    .col-lg-3,
+    .col-lg-5,
+    .col-lg-6,
+    .col-md-6 {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    .sectionBorder {
+        padding: 0.75rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    /* Forms */
+    .form-control,
+    .form-select {
+        min-height: 40px;
+        font-size: 0.9rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    /* Buttons */
+    .btn {
+        width: 100% !important;
+        padding: 0.55rem 0.75rem !important;
+        font-size: 0.85rem;
+        margin: 0.35rem !important;
+    }
+
+    .btn-group,
+    .btn-group-vertical {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    /* Grid Adjustments */
+    .row {
+        gap: 0.75rem;
+    }
+
+    [class*="col-"] {
+        padding-left: 0.25rem !important;
+        padding-right: 0.25rem !important;
+    }
+
+    /* Table */
+    .table {
+        font-size: 0.8rem;
+    }
+
+    .table thead th {
+        padding: 0.6rem 0.4rem !important;
+        font-size: 0.75rem;
+    }
+
+    .table tbody td {
+        padding: 0.6rem 0.4rem !important;
+        font-size: 0.8rem;
+        word-break: break-word;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Input Groups */
+    .input-group {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .input-group .form-control,
+    .input-group .btn {
+        min-width: 100%;
+    }
+
+    /* Labels */
+    label {
+        font-size: 0.85rem;
+        margin-bottom: 0.4rem;
+    }
+
+    /* Spacing Utilities */
+    .mt-5,
+    .mt-4,
+    .mt-3 {
+        margin-top: 1rem !important;
+    }
+
+    .mb-5,
+    .mb-4,
+    .mb-3 {
+        margin-bottom: 1rem !important;
+    }
+
+    .p-3,
+    .p-4 {
+        padding: 0.75rem !important;
+    }
+
+    /* Invoice/Item/Payment Details */
+    .col-md-5.col-lg-4,
+    .col-md-5.col-lg-3,
+    .col-md-6.col-lg-6 {
+        min-width: 100% !important;
+    }
+
+    /* Form Groups */
+    .col-12.col-md-6,
+    .col-12.col-md-6.col-lg-6 {
+        min-width: 100% !important;
+    }
+
+    /* Search Section */
+    .col-10.col-md-6.col-lg-5 {
+        min-width: 100% !important;
+    }
+
+    .input-group .w-50,
+    .input-group .w-25 {
+        width: 100% !important;
+        min-width: 100% !important;
+    }
+
+    /* Card Headers */
+    .card-header {
+        font-size: 0.9rem;
+        padding: 0.75rem 0.85rem !important;
+    }
+
+    /* Control Errors */
+    .control-error {
+        font-size: 0.75rem;
+        margin-top: 0.25rem;
+    }
+
+    /* Tabs and Dividers */
+    .customerTableDiv,
+    .ItemTableDiv,
+    .PlaceOrderTableDiv {
+        padding: 0.1rem 0.2rem 0.4rem !important;
+    }
+
+    /* Close/Hidden on mobile if needed */
+    .hide-on-mobile {
+        display: none !important;
+    }
+}
+
+/* Small Devices (Tablets: 576px - 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-nav .nav-link {
+        margin-left: 0.2rem !important;
+        margin-right: 0.2rem !important;
+        padding: 0.5rem 0.75rem !important;
+        font-size: 0.9rem;
+    }
+
+    main h2 {
+        width: 100%;
+        font-size: 1.4rem;
+        padding: 0.7rem 0.9rem;
+    }
+
+    .dash-tile-icon {
+        font-size: 3.5em !important;
+    }
+
+    .dash-tile-text h1 {
+        font-size: 2rem !important;
+    }
+
+    .btn {
+        width: 100% !important;
+    }
+
+    .card-body {
+        padding: 1.2rem !important;
+    }
+
+    .table {
+        font-size: 0.85rem;
+    }
+
+    .table thead th {
+        padding: 0.7rem 0.5rem !important;
+    }
+
+    .table tbody td {
+        padding: 0.7rem 0.5rem !important;
+    }
+
+    /* Allow 2 columns on tablets */
+    .col-10 {
+        max-width: 95% !important;
+        flex: 0 0 95% !important;
+    }
+}
+
+/* Medium Devices and Up (Desktops: >= 768px) */
+@media (min-width: 768px) {
+    /* Restore normal spacing */
+    .btn {
+        width: auto !important;
+    }
+
+    .input-group .form-control,
+    .input-group .btn {
+        min-width: auto;
+    }
+}
+
+/* Table Responsive Wrapper - Mobile First */
+@media (max-width: 575.98px) {
+    /* Card View Layout for Tables on Mobile */
+    .customerTableDiv,
+    .ItemTableDiv,
+    .PlaceOrderTableDiv {
+        padding: 0.5rem 0 !important;
+    }
+
+    .table {
+        border-collapse: separate;
+        border-spacing: 0 1rem;
+        width: 100%;
+        min-width: auto;
+    }
+
+    .table thead {
+        display: none;
+    }
+
+    .table tbody {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* Card-style rows */
+    .table tbody tr {
+        display: flex;
+        flex-direction: column;
+        background: #ffffff;
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 1rem;
+        box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+        transition: var(--transition);
+        margin-bottom: 0.5rem;
+        cursor: pointer;
+    }
+
+    .table tbody tr:hover {
+        box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12);
+        background: #f8fafc;
+    }
+
+    /* Cell styling within card */
+    .table tbody td {
+        display: grid;
+        grid-template-columns: 140px 1fr;
+        align-items: center;
+        padding: 0.7rem 0;
+        border: none;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+        gap: 1rem;
+        font-size: 0.9rem;
+        color: var(--text-color);
+        word-break: break-word;
+    }
+
+    .table tbody td:last-child {
+        border-bottom: none;
+    }
+
+    /* Data label - before each cell */
+    .table tbody td::before {
+        content: attr(data-label);
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+
+    /* Data value styling */
+    .table tbody td {
+        font-size: 0.9rem;
+        color: var(--text-color);
+        word-break: break-word;
+    }
+
+    /* Column labels using nth-child */
+    /* Customer Table */
+    #customerTable tbody td:nth-child(1)::before {
+        content: "Customer ID";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+    #customerTable tbody td:nth-child(2)::before {
+        content: "Customer Name";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+    #customerTable tbody td:nth-child(3)::before {
+        content: "Address";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+    #customerTable tbody td:nth-child(4)::before {
+        content: "Salary";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+
+    /* Item Table */
+    #itemTable tbody td:nth-child(1)::before {
+        content: "Item Code";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+    #itemTable tbody td:nth-child(2)::before {
+        content: "Description";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+    #itemTable tbody td:nth-child(3)::before {
+        content: "Quantity";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+    #itemTable tbody td:nth-child(4)::before {
+        content: "Unit Price";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+
+    /* Order Table */
+    #tblOrder tbody td:nth-child(1)::before {
+        content: "Order ID";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+    #tblOrder tbody td:nth-child(2)::before {
+        content: "Order Date";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+    #tblOrder tbody td:nth-child(3)::before {
+        content: "Customer ID";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+
+    /* Order Details Table */
+    #tblOrderDetails tbody td:nth-child(1)::before {
+        content: "Order ID";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+    #tblOrderDetails tbody td:nth-child(2)::before {
+        content: "Item Code";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+    #tblOrderDetails tbody td:nth-child(3)::before {
+        content: "Quantity";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+    #tblOrderDetails tbody td:nth-child(4)::before {
+        content: "Total";
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+}
+
+/* Tablet - Still card view but with improvements */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .table thead {
+        display: none;
+    }
+
+    .table tbody tr {
+        display: flex;
+        flex-direction: column;
+        background: #ffffff;
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 1rem;
+        box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+        margin-bottom: 1rem;
+    }
+
+    .table tbody td {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        align-items: center;
+        padding: 0.65rem 0;
+        border: none;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+        gap: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .table tbody td:last-child {
+        border-bottom: none;
+    }
+
+    .table tbody td::before {
+        font-weight: 700;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+    }
+
+    /* Column labels for tablet */
+    #customerTable tbody td:nth-child(1)::before { content: "Customer ID"; }
+    #customerTable tbody td:nth-child(2)::before { content: "Customer Name"; }
+    #customerTable tbody td:nth-child(3)::before { content: "Address"; }
+    #customerTable tbody td:nth-child(4)::before { content: "Salary"; }
+
+    #itemTable tbody td:nth-child(1)::before { content: "Item Code"; }
+    #itemTable tbody td:nth-child(2)::before { content: "Description"; }
+    #itemTable tbody td:nth-child(3)::before { content: "Quantity"; }
+    #itemTable tbody td:nth-child(4)::before { content: "Unit Price"; }
+
+    #tblOrder tbody td:nth-child(1)::before { content: "Order ID"; }
+    #tblOrder tbody td:nth-child(2)::before { content: "Order Date"; }
+    #tblOrder tbody td:nth-child(3)::before { content: "Customer ID"; }
+
+    #tblOrderDetails tbody td:nth-child(1)::before { content: "Order ID"; }
+    #tblOrderDetails tbody td:nth-child(2)::before { content: "Item Code"; }
+    #tblOrderDetails tbody td:nth-child(3)::before { content: "Quantity"; }
+    #tblOrderDetails tbody td:nth-child(4)::before { content: "Total"; }
+}
+
+/* Desktop - Normal table view */
+@media (min-width: 768px) {
+    .table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    .table thead {
+        display: table-header-group;
+    }
+
+    .table tbody tr {
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .table tbody td {
+        display: table-cell;
+        border: none;
+        border-bottom: 1px solid var(--border-color);
+        padding: 0.9rem 0.75rem !important;
+    }
+
+    .table tbody td::before {
+        display: none;
+    }
+}
+
+/* Portrait Orientation Fixes */
+@media (max-height: 600px) and (orientation: portrait) {
+    main h2 {
+        margin-top: 0.5rem !important;
+        padding: 0.5rem 0.7rem !important;
+    }
+
+    .navbar {
+        padding: 0.4rem 0 !important;
+    }
+}
+
+/* Landscape Orientation */
+@media (max-height: 500px) and (orientation: landscape) {
+    main h2 {
+        margin-top: 0.3rem !important;
+        padding: 0.3rem 0.5rem !important;
+        font-size: 1rem;
+    }
+
+    .dash-tile-icon {
+        font-size: 2em !important;
+    }
+
+    .dash-tile-text h1 {
+        font-size: 1.3rem !important;
+    }
+}
+
+/* Large Screens (1200px+) */
+@media (min-width: 1200px) {
+    main h2 {
+        display: inline-flex;
+        width: auto;
+    }
+
+    .table {
+        font-size: 0.95rem;
+    }
+}
+
+/* Extra Large Screens (1400px+) */
+@media (min-width: 1400px) {
+    .dash-tile-icon {
+        font-size: 4.5em;
+    }
+
+    .dash-tile-text h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .btn,
+    .form-control,
+    .form-select {
+        display: none !important;
+    }
+
+    .sectionBorder {
+        box-shadow: none;
+        border: 1px solid #000;
+    }
+}
+
+/* Accessibility: Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* Dark Mode Support (Optional) */
+@media (prefers-color-scheme: dark) {
+    /* Add dark mode styles if needed */
+}
+
+/* Table Card View Enhancements */
+@media (max-width: 575.98px) {
+    /* Improve card appearance */
+    .table tbody tr {
+        border-left: 4px solid var(--primary-color);
+    }
+
+    .table tbody tr:hover {
+        border-left-color: var(--primary-dark);
+    }
+
+    /* Better spacing between columns */
+    .table tbody td {
+        column-gap: 1.2rem !important;
+    }
+
+    /* Make labels stand out more */
+    .table tbody td::before {
+        min-width: 130px;
+        font-weight: 800;
+        color: var(--primary-color);
+    }
+
+    /* Better data visibility */
+    .table tbody tr:nth-child(odd) {
+        background: rgba(255, 255, 255, 0.95);
+    }
+
+    .table tbody tr:nth-child(even) {
+        background: rgba(248, 250, 252, 0.8);
+    }
+}
